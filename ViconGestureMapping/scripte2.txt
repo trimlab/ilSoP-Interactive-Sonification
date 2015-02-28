@@ -1,0 +1,18 @@
+<item>
+<activity>
+<if>
+object HandR
+greater_than cur_velocity_x x_position
+<then>
+= a ^ 1.0 1.0
+</if>
+</activity>
+<activity>
+<if>
+equal_to a 1.0
+<then>
+notes:C6ww 
+= a + 0.0 0.0
+</if>
+</activity>
+</item>

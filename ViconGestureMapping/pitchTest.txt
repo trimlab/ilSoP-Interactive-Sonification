@@ -1,0 +1,854 @@
+<item>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.10
+greater_than z_position 0.0
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.10
+greater_than z_position 0.0
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:C2 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.20
+greater_than z_position 0.10
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.20
+greater_than z_position 0.10
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:D2 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.30
+greater_than z_position 0.20
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.30
+greater_than z_position 0.20
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:E2 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.40
+greater_than z_position 0.30
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.40
+greater_than z_position 0.30
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:G2 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.50
+greater_than z_position 0.40
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.50
+greater_than z_position 0.40
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:A2 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.60
+greater_than z_position 0.50
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.60
+greater_than z_position 0.50
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:C3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.70
+greater_than z_position 0.60
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.70
+greater_than z_position 0.60
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:D3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.80
+greater_than z_position 0.70
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.80
+greater_than z_position 0.70
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:E3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.90
+greater_than z_position 0.80
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.90
+greater_than z_position 0.80
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:G3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.00
+greater_than z_position 0.90
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.00
+greater_than z_position 0.90
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:A3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.10
+greater_than z_position 1.0
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.10
+greater_than z_position 1.0
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:C4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.20
+greater_than z_position 1.10
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.20
+greater_than z_position 1.10
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:D4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.30
+greater_than z_position 1.20
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.30
+greater_than z_position 1.20
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:E4
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.40
+greater_than z_position 1.30
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.40
+greater_than z_position 1.30
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:G4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.50
+greater_than z_position 1.40
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.50
+greater_than z_position 1.40
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:A4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.10
+greater_than z_position 0.0
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.60
+greater_than z_position 1.50
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:C5 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.20
+greater_than z_position 0.10
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.70
+greater_than z_position 1.60
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:D5 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.80
+greater_than z_position 1.70
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.80
+greater_than z_position 1.70
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:E5 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.90
+greater_than z_position 1.80
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.90
+greater_than z_position 1.80
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:G5
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 2.00
+greater_than z_position 1.90
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 2.00
+greater_than z_position 1.90
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:A5 
+</if>
+</activity>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.10
+greater_than z_position 0.0
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.10
+greater_than z_position 0.0
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:C2 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.20
+greater_than z_position 0.10
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.20
+greater_than z_position 0.10
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:D2 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.30
+greater_than z_position 0.20
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.30
+greater_than z_position 0.20
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:E2 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.40
+greater_than z_position 0.30
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.40
+greater_than z_position 0.30
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:G2 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.50
+greater_than z_position 0.40
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.50
+greater_than z_position 0.40
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:A2 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.60
+greater_than z_position 0.50
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.60
+greater_than z_position 0.50
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:C3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.70
+greater_than z_position 0.60
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.70
+greater_than z_position 0.60
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:D3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.80
+greater_than z_position 0.70
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.80
+greater_than z_position 0.70
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:E3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.90
+greater_than z_position 0.80
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.90
+greater_than z_position 0.80
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:G3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.00
+greater_than z_position 0.90
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.00
+greater_than z_position 0.90
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:A3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.10
+greater_than z_position 1.0
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.10
+greater_than z_position 1.0
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:C4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.20
+greater_than z_position 1.10
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.20
+greater_than z_position 1.10
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:D4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.30
+greater_than z_position 1.20
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.30
+greater_than z_position 1.20
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:E4
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.40
+greater_than z_position 1.30
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.40
+greater_than z_position 1.30
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:G4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.50
+greater_than z_position 1.40
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.50
+greater_than z_position 1.40
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:A4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.10
+greater_than z_position 0.0
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.60
+greater_than z_position 1.50
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:C5 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.20
+greater_than z_position 0.10
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.70
+greater_than z_position 1.60
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:D5 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.80
+greater_than z_position 1.70
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.80
+greater_than z_position 1.70
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:E5 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.90
+greater_than z_position 1.80
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.90
+greater_than z_position 1.80
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:G5
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 2.00
+greater_than z_position 1.90
+greater_than cur_velocity_composite .00
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 2.00
+greater_than z_position 1.90
+greater_than cur_velocity_composite .00
+<then>
+instr:I40
+notes:A5 
+</if>
+</activity>
+</item>

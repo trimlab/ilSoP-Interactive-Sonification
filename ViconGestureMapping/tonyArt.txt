@@ -1,0 +1,242 @@
+<item>
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.33
+greater_than z_position 0.0
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.33
+greater_than z_position 0.0
+<then>
+instr:I50
+arpeg:G3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.67
+greater_than z_position 0.33
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.67
+greater_than z_position 0.33
+<then>
+instr:I50
+arpeg:B3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.0
+greater_than z_position 0.67
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.0
+greater_than z_position 0.67
+<then>
+instr:I50
+arpeg:D4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.33
+greater_than z_position 1.0
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.33
+greater_than z_position 1.0
+<then>
+instr:I50
+arpeg:G4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.67
+greater_than z_position 1.33
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.67
+greater_than z_position 1.33
+<then>
+instr:I50
+arpeg:B4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 2.0
+greater_than z_position 1.67
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 2.0
+greater_than z_position 1.67
+<then>
+instr:I50
+arpeg:D5 
+</if>
+</activity>
+
+
+
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.33
+greater_than z_position 0.0
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.33
+greater_than z_position 0.0
+<then>
+instr:I50
+arpeg:G3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.67
+greater_than z_position 0.33
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.67
+greater_than z_position 0.33
+<then>
+instr:I50
+arpeg:B3 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.0
+greater_than z_position 0.67
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.0
+greater_than z_position 0.67
+<then>
+instr:I50
+arpeg:D4 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.33
+greater_than z_position 1.0
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.33
+greater_than z_position 1.0
+<then>
+instr:I50
+arpeg:G4
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.67
+greater_than z_position 1.33
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.67
+greater_than z_position 1.33
+<then>
+instr:I50
+arpeg:B4
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 2.0
+greater_than z_position 1.67
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 2.0
+greater_than z_position 1.67
+<then>
+instr:I50
+arpeg:D5 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+<then>
+= a + avg_velocity_composite 0
+length:w
+</if>
+</activity>
+
+</item>

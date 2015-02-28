@@ -1,0 +1,75 @@
+<item>
+
+<activity>
+<if>
+object HandR 
+greater_than x_position 1.0
+<then>
+notes:G3w
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 1.0
+<then>
+notes:D2w
+</if>
+</activity>
+
+<activity>
+<if>
+object HandL
+greater_than x_position 1.0
+<then>
+notes:G3w 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandL
+less_than x_position 1.0
+<then>
+notes:D4w 
+</if>
+</activity>
+
+<activity>
+<if>
+object FootL
+greater_than x_position 1.0
+<then>
+notes:G3w 
+</if>
+</activity>
+
+<activity>
+<if>
+object FootL
+less_than x_position 1.0
+<then>
+notes:D4w 
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+greater_than x_position 1.0
+<then>
+notes:G3w 
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+less_than x_position 1.0
+<then>
+notes:D4w 
+</if>
+</activity>
+
+</item>

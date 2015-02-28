@@ -1,0 +1,78 @@
+<item>
+
+
+
+
+<activity>
+<if>
+object HandR
+less_than x_position -1.0
+<then>
+notes:G3 
+</if>
+</activity>
+<activity>
+<if>
+object HandR
+equal_to x_position -1.0
+<then>
+notes:A3 
+</if>
+</activity>
+<activity>
+<if>
+object HandR
+equal_to x_position -.5
+<then>
+notes:B3 
+</if>
+</activity>
+<activity>
+<if>
+object HandR
+equal_to x_position 0
+<then>
+notes:C4 
+</if>
+</activity>
+<activity>
+<if>
+object HandR
+equal_to x_position .5
+<then>
+notes:D4 
+</if>
+</activity>
+<activity>
+<if>
+object HandR
+equal_to x_position 1.0
+<then>
+notes:E4 
+</if>
+</activity>
+<activity>
+<if>
+object HandR
+equal_to x_position 1.5
+<then>
+notes:F4 
+</if>
+</activity>
+<activity>
+<if>
+object HandR
+equal_to x_position 2.0
+<then>
+notes:G4 
+</if>
+</activity>
+<activity>
+<if>
+object HandR
+greater_than x_position 2.0
+<then>
+notes:A4 
+</if>
+</activity>
+</item>

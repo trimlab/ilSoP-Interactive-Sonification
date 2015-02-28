@@ -1,0 +1,571 @@
+<item>
+
+<activity>
+<if>
+object FootR
+greater_than x_position 0.0
+less_than x_position 0.67
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+greater_than x_position 0.0
+less_than x_position 0.67
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I0
+notes:G2wwwwa85d85
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+greater_than x_position 0.67
+less_than x_position 1.33
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+greater_than x_position 0.67
+less_than x_position 1.33
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I0
+notes:B2wwwwa85d85  
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+greater_than x_position 1.33
+less_than x_position 2.0
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+greater_than x_position 1.33
+less_than x_position 2.0
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I0
+notes:D3wwwwa85d85  
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+greater_than x_position 0.0
+less_than x_position 0.67
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+greater_than x_position 0.0
+less_than x_position 0.67
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I59
+notes:G2wwwwa85d85 
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+greater_than x_position 0.67
+less_than x_position 1.33
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+greater_than x_position 0.67
+less_than x_position 1.33
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I59
+notes:B2wwwwa85d85 
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+greater_than x_position 1.33
+less_than x_position 2.0
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+greater_than x_position 1.33
+less_than x_position 2.0
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I59
+notes:D3wwwwa85d85  
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+less_than x_position 0.0
+greater_than x_position -0.67
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+less_than x_position 0.0
+greater_than x_position -0.67
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I96
+notes:D3wwwwa85d85   
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+less_than x_position -0.67
+greater_than x_position -1.33
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+less_than x_position -0.67
+greater_than x_position -1.33
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I96
+notes:B2wwwwa85d85   
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+less_than x_position -1.33
+greater_than x_position -2.0
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+less_than x_position -1.33
+greater_than x_position -2.0
+greater_than y_position 0.25
+less_than y_position 2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I96
+notes:G2wwwwa85d85   
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+less_than x_position 0.0
+greater_than x_position -0.67
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+less_than x_position 0.0
+greater_than x_position -0.67
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I48
+notes:D3wwwwa85d85  
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+less_than x_position -0.67
+greater_than x_position -1.33
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+less_than x_position -0.67
+greater_than x_position -1.33
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I48
+notes:B2wwwwa85d85 
+</if>
+</activity>
+
+<activity>
+<if>
+object FootR
+less_than x_position -1.33
+greater_than x_position -2.0
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<or>
+object FootL
+less_than x_position -1.33
+greater_than x_position -2.0
+less_than y_position 0.25
+greater_than y_position -2.0
+greater_than cur_velocity_composite 0.5
+<then>
+instr:I48
+notes:G2wwwwa85d85 
+</if>
+</activity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.33
+greater_than z_position 0.0
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.33
+greater_than z_position 0.0
+greater_than cur_velocity_composite .75
+<then>
+instr:I50
+notes:G3ww 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.67
+greater_than z_position 0.33
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 0.67
+greater_than z_position 0.33
+greater_than cur_velocity_composite .75
+<then>
+instr:I50
+notes:B3ww 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.0
+greater_than z_position 0.67
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.0
+greater_than z_position 0.67
+greater_than cur_velocity_composite .75
+<then>
+instr:I50
+notes:D4ww 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.33
+greater_than z_position 1.0
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.33
+greater_than z_position 1.0
+greater_than cur_velocity_composite .75
+<then>
+instr:I50
+notes:G4ww 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.67
+greater_than z_position 1.33
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.67
+greater_than z_position 1.33
+greater_than cur_velocity_composite .75
+<then>
+instr:I50
+notes:B4ww 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 2.0
+greater_than z_position 1.67
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 2.0
+greater_than z_position 1.67
+greater_than cur_velocity_composite .75
+<then>
+instr:I50
+notes:D5ww 
+</if>
+</activity>
+
+
+
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.33
+greater_than z_position 0.0
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.33
+greater_than z_position 0.0
+greater_than cur_velocity_composite .75
+<then>
+instr:I40
+notes:G3ww 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.67
+greater_than z_position 0.33
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 0.67
+greater_than z_position 0.33
+greater_than cur_velocity_composite .75
+<then>
+instr:I40
+notes:B3ww 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.0
+greater_than z_position 0.67
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.0
+greater_than z_position 0.67
+greater_than cur_velocity_composite .75
+<then>
+instr:I40
+notes:D4ww 
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.33
+greater_than z_position 1.0
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.33
+greater_than z_position 1.0
+greater_than cur_velocity_composite .75
+<then>
+instr:I40
+notes:G4ww
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 1.67
+greater_than z_position 1.33
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+less_than x_position 0.0
+greater_than x_position -2.0
+less_than z_position 1.67
+greater_than z_position 1.33
+greater_than cur_velocity_composite .75
+<then>
+instr:I40
+notes:B4ww
+</if>
+</activity>
+
+<activity>
+<if>
+object HandR
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 2.0
+greater_than z_position 1.67
+greater_than cur_velocity_composite .75
+<or>
+object HandL
+greater_than x_position 0.0
+less_than x_position 2.0
+less_than z_position 2.0
+greater_than z_position 1.67
+greater_than cur_velocity_composite .75
+<then>
+instr:I40
+notes:D5ww 
+</if>
+</activity>
+
+
+
+
+
+
+
+<activity>
+<if>
+object HandR
+<then>
+= a + 1.0 a
+</if>
+</activity>
+
+
+<activity>
+<if>
+less_than a 10.0
+<then>
+= a + 1.0 a
+</if>
+</activity>
+
+
+<activity>
+<if>
+equal_to a 100.0
+<then>
+= a - a 100.0
+</if>
+</activity>
+
+
+
+
+
+
+
+</item>
